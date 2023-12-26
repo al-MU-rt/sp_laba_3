@@ -1,0 +1,1 @@
+cmd_/home/anton/repos/busybox/cpp_5/laba_5.ko := ccache arm-linux-gnueabihf-ld -r  -EL -z noexecstack  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/anton/repos/busybox/cpp_5/laba_5.ko /home/anton/repos/busybox/cpp_5/laba_5.o /home/anton/repos/busybox/cpp_5/laba_5.mod.o ;  true
